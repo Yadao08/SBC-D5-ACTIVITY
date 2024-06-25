@@ -38,4 +38,18 @@
 # l.pop(0)
 # l.reverse()
 
+data = [["carlo", "p.", "maneja", 18,"single"],
+        ["rj", "p.", "baron", 18,"taken"]]
+
+final = []
+for d in data:
+    label = {}
+    label["firstname"] = d[0]
+    label["initial"] = d[1]
+    label["lastname"] = d[2]
+    label["age"] = d[3]
+    label["status"] = d[4]
+    final.append(label)
+print(final)
+
 
